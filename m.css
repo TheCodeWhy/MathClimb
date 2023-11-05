@@ -1,0 +1,96 @@
+body {
+    background-color: #0d0d0d;
+    margin: 0;
+
+}
+.cInArt{
+    height: 60px;
+    margin: 0%;
+    /* display and aj are making the logo in the md*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+.cInHappy{
+    display: inline-block;
+    vertical-align: middle;
+}
+.cInHappy img{
+    height: 120px;
+    width: auto;
+    cursor: pointer;
+}
+.oInArt{
+    display: flex;
+    overflow-x: auto;
+    align-items: center;
+    justify-content: center;
+}
+.item{
+    height: 120px;
+    box-shadow: 0 2px 4px #000000;
+    margin: 10px;
+}
+.item img{
+    height: 120px;
+}
+.item:hover{
+    transform: translateY(5px);
+    color: #fff;
+    white-space: nowrap;
+    display: block; 
+    cursor: pointer;
+}
+.dInArt{
+    background-color: #1b1b1b;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom:20%;
+    border-radius: 20px;
+    margin-top: 20px;
+    outline: 2px solid #383838;
+}
+@font-face {
+    font-family: norwester;
+    src: url(https://github.com/TheCodeWhy/thecodewhy.github.io/blob/main/R/norwester.otf);
+}
+.ttl{
+    font-family: "norwester";
+    width: auto;
+    color: #f2e206;
+}
+.tt1{
+    width: 50%;
+
+}
+#desc{
+    width: 60%;
+    margin: auto;
+}
+.listdesc{
+    text-align: left;
+    color: #f2f2f2;
+    margin-left: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.tlistdesc{
+    color: #f2f2f2;
+    font-size: 20px;
+    font-family: "norwester";
+}
+
+.store{
+    width: 25%;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#privacy{
+    color: #f2e206;
+    font-family: "norwester";
+    margin-top: 100px;
+    cursor: pointer !important;
+    
+}
